@@ -36,7 +36,7 @@ public class Towers
         }
     }
 
-    public static int[][] createArray(int n)
+    private static int[][] createArray(int n)
     {
         if (n < 0)
         {
@@ -122,7 +122,7 @@ public class Towers
     }
 
     // Helper method for slowing down array printing 
-    public static void wait(int ms)
+    private static void wait(int ms)
     {
         try
         {
